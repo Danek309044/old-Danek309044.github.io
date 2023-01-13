@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /l.html
-Disallow: /l
 
 Sitemap: https://danek309044.github.io/sitemap.xml
