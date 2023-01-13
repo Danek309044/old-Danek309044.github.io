@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'sofiaSans';
+    src: url('../fonts/sofiaSans/sofiasans-variablefont_wght-webfont.woff2') format('woff2'),
+        url('../fonts/sofiaSans/sofiasans-variablefont_wght-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-family: sofiaSans, Arial, sans-serif;
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+    justify-content: center;
+}
+
+h3 {
+    color: #ffffff31
+}
+
+.links,
+.contact {
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color:#ffffff;
+    text-align: center;
+    display: inline-block;
+    width: 180px;
+    transition: 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.links:hover,
+.links:active,
+.contact:hover,
+.contact:active {
+    background-color: rgb(24, 24, 24);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

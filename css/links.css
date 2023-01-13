@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'sofiaSans';
+    src: url('../fonts/sofiaSans/sofiasans-variablefont_wght-webfont.woff2') format('woff2'),
+        url('../fonts/sofiaSans/sofiasans-variablefont_wght-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-family: sofiaSans, Arial, sans-serif;
+    text-align: center;
+}
+
+.header {
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #1f1f1f;
+    color: white;
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.header a:link,
+.header a:visited,
+.header a:active,
+.header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.left,
+.right {
+    float: left;
+    width: 20%;
+}
+
+.main {
+    float: left;
+    width: 60%;
+}
+
+@media screen and (max-width: 800px) {
+
+    .left,
+    .main,
+    .right {
+        width: 100%;
+    }
+}
+
+.links {
+    text-align: center;
+    display: inline-block;
+}
+
+.twitter {
+    padding: 4px;
+}
+
+.header a:link,
+.header a:visited,
+.header a:hover,
+.header a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:link,
+.links a:visited {
+    border-style: solid;
+    border-radius: 10px;
+    width: 180px;
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: 0.5s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.links a:hover,
+.links a:active {
+    border-style: solid;
+    background-color: rgb(44, 44, 44);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.github a:hover,
+.github a:active {
+    border-color: #24292F;
+}
+
+.discord a:hover,
+.discord a:active {
+
+    border-color: #090909;
+
+}
+
+.czcore a:hover,
+.czcore a:active {
+
+    border-color: #cc0000;
+}
+
+.twitter a:hover,
+.twitter a:active {
+
+    border-color: #1DA1F2;
+}
+
+.steam a:hover,
+.steam a:active {
+
+    border-color: #2a475e;
+}
+
+.twitch a:hover,
+.twitch a:active {
+
+    border-color: #6441a5;
+}
+
+.instagram a:hover,
+.instagram a:active {
+    border-color: #FF0069;
+}
