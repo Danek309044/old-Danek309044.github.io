@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /l.html
+
+Sitemap: https://danek309044.github.io/sitemap.xml
