@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://danek309044.github.io/sitemap.xml
+Sitemap: https://d309044.eu/sitemap.xml
