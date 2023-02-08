@@ -46,15 +46,6 @@ body {
     width: 60%;
 }
 
-@media screen and (max-width: 800px) {
-
-    .left,
-    .main,
-    .right {
-        width: 100%;
-    }
-}
-
 .links {
     text-align: center;
     display: inline-block;
