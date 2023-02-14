@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'sofiaSans';
     src: url('../fonts/sofiaSans/sofiasans-variablefont_wght-webfont.woff2') format('woff2'),
-        url('../fonts/sofiaSans/sofiasans-variablefont_wght-webfont.woff2') format('woff');
+        url('../fonts/sofiaSans/sofiasans-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -10,7 +10,7 @@
 body {
     background-color: rgb(19, 19, 19);
     color: white;
-    font-family: sofiaSans, Arial, sans-serif;
+    font-family: sofiaSans;
     text-align: center;
 }
 
