@@ -8,6 +8,7 @@
 }
 
 body {
+    overflow: hidden;
     background-color: rgb(19, 19, 19);
     color: white;
     font-family: sofiaSans;
@@ -17,6 +18,14 @@ body {
 .main {
     text-align: center;
     justify-content: center;
+}
+
+.space{
+    margin: 20vh 0vh;
+}
+
+.space1 {
+    margin: 5vh 0vh;
 }
 
 h3 {

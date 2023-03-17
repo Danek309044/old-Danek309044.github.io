@@ -117,12 +117,6 @@ body {
     border-color: #2a475e;
 }
 
-.twitch a:hover,
-.twitch a:active {
-
-    border-color: #6441a5;
-}
-
 .instagram a:hover,
 .instagram a:active {
     border-color: #FF0069;
