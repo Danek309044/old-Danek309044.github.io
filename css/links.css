@@ -35,16 +35,6 @@ body {
     text-decoration: none;
 }
 
-.left,
-.right {
-    float: left;
-    width: 20%;
-}
-
-.main {
-    float: left;
-    width: 60%;
-}
 
 .links {
     text-align: center;
