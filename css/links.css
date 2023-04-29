@@ -89,10 +89,10 @@ body {
 
 }
 
-.czcore a:hover,
-.czcore a:active {
+.hg a:hover,
+.hg a:active {
 
-    border-color: #cc0000;
+    border-color: #f9c900;
 }
 
 .twitter a:hover,
