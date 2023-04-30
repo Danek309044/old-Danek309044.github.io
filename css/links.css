@@ -39,6 +39,7 @@ body {
 .links {
     text-align: center;
     display: inline-block;
+    font-size: 110%;
 }
 
 .twitter {
