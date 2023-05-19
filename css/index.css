@@ -1,16 +1,9 @@
-@font-face {
-    font-family: 'sofiaSans';
-    src: url('../fonts/sofiaSans/sofiasans-variablefont_wght-webfont.woff2') format('woff2'),
-        url('../fonts/sofiaSans/sofiasans-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
 
 body {
     background-color: rgb(19, 19, 19);
     color: white;
-    font-family: sofiaSans;
+    font-family: 'Dosis';
     text-align: center;
 }
 
@@ -27,8 +20,14 @@ body {
     margin: 5vh 0vh;
 }
 
-h3 {
-    color: #ffffff31
+.fa-html5{
+    color: #e34c26;
+}
+.fa-css3-alt {
+    color: #264de4;
+}
+.fa-js {
+    color: #f7df1e;
 }
 
 .links,
