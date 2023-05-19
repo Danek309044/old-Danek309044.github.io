@@ -24,16 +24,24 @@
   
   <title>Page not found...</title>
 
-<body>
+  <body>
     <style>
-      @import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
-    body {
-        background-image: url('./images/forest.jpg');
+    @font-face {
+        font-family: 'sofiaSans';
+        src: url('../fonts/sofiaSans/sofiasans-variablefont_wght-webfont.woff2') format('woff2'),
+            url('../fonts/sofiaSans/sofiasans-variablefont_wght-webfont.woff2') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+    body { 
+        background-image: url('./src/images/forest.jpg');
         color: white;
-        font-family: 'Dosis';
+        font-family: sofiaSans;
         text-align: center;
         padding-top: 200px;
     }
+
     a:link,
     a:visited {
         color: #ffffff;

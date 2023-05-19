@@ -1,9 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@font-face {
+    font-family: 'sofiaSans';
+    src: url('../fonts/sofiasans-variablefont_wght-webfont.woff2') format('woff2'),
+        url('../fonts/sofiasans-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body {
     background-color: rgb(19, 19, 19);
     color: white;
-    font-family: 'Dosis';
+    font-family: 'sofiaSans';
     text-align: center;
 }
 
