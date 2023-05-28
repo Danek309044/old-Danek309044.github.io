@@ -90,8 +90,8 @@ body {
 
 }
 
-.hg a:hover,
-.hg a:active {
+.hg-bmc a:hover,
+.hg-bmc a:active {
 
     border-color: #f9c900;
 }
